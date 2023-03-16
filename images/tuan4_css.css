@@ -1,0 +1,258 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    /* border: 1px solid black; */
+}
+
+#left {
+    width: 90px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 5px solid gray;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+.item1 {
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+#left_below {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+.setting {
+    margin-top: 36px;
+    width: 60px;
+    margin-left: -10px;
+}
+
+#center {
+    width: 910px;
+    height: 950px;
+    background-color: antiquewhite;
+}
+
+#right {
+    background-color: cyan;
+    width: 440px;
+    height: 950px;
+}
+
+.top_center {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.meeting {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.oclock {
+    position: relative;
+    margin: 35px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 40px;
+}
+.oclock:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.second_center {
+    position: relative;
+    display: flex;
+    height: 50px;
+}
+
+.internal {
+    color: white;
+    background-color: rgb(230, 80, 125);
+    position: relative;
+    top: 0px;
+    margin-left: 25px;
+    width: 130px;
+    height: 40px;
+     display: flex; 
+    border-radius: 20px;
+}
+.internal_icon{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+}
+
+.day {
+    position: relative;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: -5px;
+    text-align: center;
+    justify-content: space-around;
+    color: gray;
+    border-right: 1px solid gray;
+}
+
+.time {
+    position: relative;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left: -5px;
+    text-align: center;
+    color: gray;
+}
+
+.banner {
+    margin-top: 30px;
+    margin-left: 35px;
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.benjamin{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 15px;
+    opacity: 55%;
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+}
+.green_cirle{
+    color: rgb(4, 255, 4);
+    line-height: 35px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.txt{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 35px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.mic{
+    position: absolute;
+    margin-top: 10px;
+    right: 75px;
+}
+.cam{
+    position: relative;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.cam1_img{
+    position: relative;
+    display: flex;
+}
+.cam1_mic{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+}
+.cam1_scott{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+}
+.cam2_img{
+    position: relative;
+    display: flex;
+}
+.cam2_mic{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+}
+.cam2_Chu{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+}
+.cam3_img{
+    position: relative;
+    display: flex;
+}
+.cam3_mic{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+}
+.cam3_nieves{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+}
+.final_center{
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-left: 205px;
+}
+.fi_4{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+}
+.fi_4:hover{
+    background-color: red;
+    color: white;
+}
